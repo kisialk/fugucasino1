@@ -1,0 +1,35 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/official-site/", "destination": "/official-site.html" },
+    { "source": "/login/", "destination": "/login.html" },
+    { "source": "/registration/", "destination": "/registration.html" },
+    { "source": "/zerkalo/", "destination": "/zerkalo.html" },
+    { "source": "/bets/", "destination": "/bets.html" },
+    { "source": "/bonus/", "destination": "/bonus.html" },
+    { "source": "/casino/", "destination": "/casino.html" },
+    { "source": "/download/", "destination": "/download.html" },
+    { "source": "/reviews/", "destination": "/reviews.html" },
+    { "source": "/reviews", "destination": "/reviews.html" },
+    { "source": "/privacy-policy/", "destination": "/privacy-policy.html" },
+    { "source": "/terms/", "destination": "/terms.html" },
+    { "source": "/contacts/", "destination": "/contacts.html" },
+    { "source": "/responsible-gaming/", "destination": "/responsible-gaming.html" }
+  ],
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/official-site.html", "destination": "/official-site/", "permanent": true },
+    { "source": "/login.html", "destination": "/login/", "permanent": true },
+    { "source": "/registration.html", "destination": "/registration/", "permanent": true },
+    { "source": "/zerkalo.html", "destination": "/zerkalo/", "permanent": true },
+    { "source": "/bets.html", "destination": "/bets/", "permanent": true },
+    { "source": "/bonus.html", "destination": "/bonus/", "permanent": true },
+    { "source": "/casino.html", "destination": "/casino/", "permanent": true },
+    { "source": "/download.html", "destination": "/download/", "permanent": true },
+    { "source": "/reviews.html", "destination": "/reviews/", "permanent": true },
+    { "source": "/privacy-policy.html", "destination": "/privacy-policy/", "permanent": true },
+    { "source": "/terms.html", "destination": "/terms/", "permanent": true },
+    { "source": "/contacts.html", "destination": "/contacts/", "permanent": true },
+    { "source": "/responsible-gaming.html", "destination": "/responsible-gaming/", "permanent": true }
+  ]
+}
